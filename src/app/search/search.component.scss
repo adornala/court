@@ -1,0 +1,40 @@
+
+.criteria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  span {
+    margin: auto 10px;
+    background: darkslateblue;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.results {
+  width: 80%;
+  margin: auto;
+  min-height: 200px;
+}
+
+.alert {
+  display: flex;
+  position: absolute;
+  background: #c4c4c4;
+  border-radius: 5px;
+  padding: 10px;
+  bottom: 10%;
+  right: 5%;
+  z-index: 10;
+}
+
+table {
+  width: 100%;
+}
